@@ -16,11 +16,11 @@ public:
         {
             for (int j = 0; j <= n; j++)
             {
-                if (!i)
+                if (i == 0)
                 {
                     dp[i][j] = j;
                 }
-                else if (!j)
+                else if (j == 0)
                 {
                     dp[i][j] = i;
                 }
